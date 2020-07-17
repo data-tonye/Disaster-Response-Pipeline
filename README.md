@@ -7,9 +7,9 @@ This project required building an ETL pipeline and then training the data to cla
 ### Folders and Files used:
 **app** : This contains the folder **template** which houses the main page of the web app and the classification result page of web app. **run.py** is the flask file that runs app.
 
-**data** : Contains the data used for this project and the python script for Extracting Transforming and Loading (ETL) the data, **process_data.py**
+**data** : Contains the data used for this project and the python script for Extracting Transforming and Loading (ETL) the data, **process_data.py**.
 
-**models** : This contains an machine learning pipeline, **train_classifier** and the save model to classify messages, **classifier.pkl**
+**models** : This contains a machine learning pipeline, **train_classifier** and the saved model to classify messages, **classifier.pkl**. The pkl is large and so you will see a readme file with instructions to download it.
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
